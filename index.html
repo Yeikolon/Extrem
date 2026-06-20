@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrenalia | Deportes extremos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+    <!-- nav y header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#inicio">ADRENALIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#actividades">Actividades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#seguridad">Seguridad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Principal -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h1>Vive al límite con Adrenalia</h1>
+                <p>Escalada, ciclismo de montaña y rutas extremas para quienes buscan comunidad y adrenalina.</p>
+                <img src="src/x.jpg" class="hero-img" />
+                <a href="#contacto" class="btn-cta">Únete ahora</a>
+            </div>
+        </section>
+
+        <!-- Beneficios -->
+        <section id="beneficios" class="beneficios">
+            <div class="container">
+                <h2 class="titulo-seccion">¿Por qué Adrenalia?</h2>
+                <div class="beneficios-flex">
+                    <div class="beneficio-item">
+                        <h3><i class="fas fa-user-check"></i> Guías certificados</h3>
+                        <p>Instructores con experiencia en escalada y ciclismo de montaña.</p>
+                    </div>
+                    <div class="beneficio-item">
+                        <h3><i class="fas fa-hard-hat"></i> Equipo incluido</h3>
+                        <p>Todo el equipo de seguridad y técnico necesario está incluido.</p>
+                    </div>
+                    <div class="beneficio-item">
+                        <h3><i class="fas fa-users"></i> Comunidad activa</h3>
+                        <p>Rutas grupales cada semana y eventos para todos los niveles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Actividades -->
+        <section id="actividades" class="actividades">
+            <div class="container">
+                <h2 class="titulo-seccion">Nuestras actividades</h2>
+                <div class="actividades-grid">
+                    <div class="card-actividad">
+                        <img src="src/x.jpg" class="card-img" />
+                        <div class="card-body">
+                            <h3>Escalada</h3>
+                            <p>Rutas en roca natural con anclajes verificados para todos los niveles.</p>
+                        </div>
+                    </div>
+                    <div class="card-actividad">
+                        <img src="src/x.jpg" class="card-img" />
+                        <div class="card-body">
+                            <h3>Ciclismo</h3>
+                            <p>Senderos técnicos de montaña con descensos y subidas exigentes.</p>
+                        </div>
+                    </div>
+                    <div class="card-actividad">
+                        <img src="src/x.jpg" class="card-img" />
+                        <div class="card-body">
+                            <h3>Rutas extremas</h3>
+                            <p>Expediciones guiadas de uno o varios días por paisajes exigentes.</p>
+                        </div>
+                    </div>
+                    <div class="card-actividad">
+                        <img src="src/x.jpg" class="card-img" />
+                        <div class="card-body">
+                            <h3>Membresías</h3>
+                            <p>Planes mensuales y anuales con acceso a todas las actividades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- informacion -->
+        <section id="seguridad" class="seguridad">
+            <div class="container">
+                <div class="seguridad-flex">
+                    <img src="src/x.jpg" class="seguridad-img" />
+                    <div class="seguridad-texto">
+                        <h2>Tu seguridad es la prioridad</h2>
+                        <p>Cada actividad cuenta con protocolos estrictos, equipo certificado y supervisión constante.
+                            Antes de cada ruta revisamos clima, terreno y estado físico de los participantes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- accion -->
+        <section class="cta">
+            <div class="container">
+                <h2>¿Listo para tu próxima aventura?</h2>
+                <p>Inscríbete hoy y obtén tu primera ruta de cortesía.</p>
+                <a href="#contacto" class="btn-cta-outline">Quiero unirme</a>
+            </div>
+        </section>
+
+        <!-- formulario -->
+        <section id="contacto" class="formulario">
+            <div class="container">
+                <h2 class="titulo-seccion">Solicita información</h2>
+                <form class="form-contacto">
+                    <div class="mb-3">
+                        <label class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" placeholder="Tu nombre" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" placeholder="nombre@correo.com" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Actividad de interés</label>
+                        <select class="form-select">
+                            <option>Selecciona una actividad</option>
+                            <option>Escalada</option>
+                            <option>Ciclismo</option>
+                            <option>Rutas</option>
+                            <option>Membresía</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensaje</label>
+                        <textarea class="form-control" rows="3"
+                            placeholder="Cuéntanos qué te gustaría saber"></textarea>
+                    </div>
+                    <button type="submit" class="btn-cta">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Adrenalia Club de Deportes Extremos.</p>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#actividades">Actividades</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
